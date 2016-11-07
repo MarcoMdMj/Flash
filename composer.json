@@ -1,0 +1,29 @@
+{
+    "name": "marcomdmj/flash",
+    "description": "Easily displays different types of flash messages.",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "illuminate/session": "~5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Madueño Mejia",
+            "email": "soluciones@myokram.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "MarcoMdMj\\Flash\\": "src"
+        },
+        "files": [
+            "src/Helpers/Helpers.php"
+        ]
+    }
+}
